@@ -1,7 +1,7 @@
 import React from 'react';
-import Card from './card'
+import Card from './components/card'
 
-const data = require("../data/sampleNews.json");
+const data = require("./data/sampleNews.json");
 console.log(data);
 const NewsPage = () => {
   /*return(

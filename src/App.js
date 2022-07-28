@@ -1,5 +1,5 @@
 import React from "react";
-import NewsPage from "./components/NewsPage";
+import NewsPage from "./NewsPage";
 
 function App() {
   return (
