@@ -1,10 +1,13 @@
 import React from "react";
 import NewsPage from "./NewsPage";
+import Navbar from "./components/NavBar";
 
 function App() {
   return (
     <>
+      <Navbar/>
       <NewsPage/>
+
     </>
   );
 }

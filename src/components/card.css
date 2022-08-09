@@ -1,5 +1,5 @@
 .card{
-    margin-top:30px;
+    margin-top:60px;
     margin-left:20px;
     width:20rem;
     height: fit-content;
@@ -17,13 +17,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-top:30px;
 }
 
   img{
-    height:100%;
+    width: 317px;
+    height: 240px;
     border-radius:3px;
     padding:5px 3px;
+    object-fit:cover;
 }
+
 .source{
   position: absolute;
   top: -1px;
@@ -71,12 +75,7 @@
     font-style: italic;
     text-align: left;
 }
-  /*.card-publish{
-    text-align: centre;
-    padding-left:15px;
-    font-size:15px;
-    color:#667292;
-}*/
+
   button{
     background-color: black;
     border: none;
